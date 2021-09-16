@@ -1,0 +1,95 @@
+Android Emulator Setup Checklist
+Hi everyone,
+
+Setting up an emulator can be though. So please read all the steps mentioned below and apply them accordingly.
+
+Please also aware that versions should be exactly as it is mentioned below. If you do not have the correct versions, it is probable to face difficulties while setting up the emulator.
+
+
+
+1) Install Java Sdk(Version 12.0.2 and above) (https://www.oracle.com/java/technologies/javase-downloads.html)
+
+
+
+2) Install node js (https://nodejs.org/en/). Choose the left one.(Recommended one)
+
+
+
+3) Install Python(version 2...) (https://www.python.org/downloads/release/python-2718/)
+
+
+
+4) Download Android-Studio(Version 3...)
+
+
+
+5) Open the command prompt and run it as administrator
+
+
+
+6) In command prompt run "npm install -g react-native-cli"
+
+
+
+7) Go to the folder where you want to put your project from your command line and in that folder run "react-native init cars"
+
+
+
+8) While starting the Android-Studio uncheck the "Start Android Studio"
+
+
+
+9)Open windows search bar and there write Android-Studio and click on it.
+
+
+
+10) While moving forward in Android-Studio setup wizard on SDK Components Setup Screen. Go to "Android SDK Location" and click on the folder icon, after that choose the D: Drive and then right-click and choose "new folder" and there type in "sdk" and then click on "sdk" and then "next" and "finish". In this process write exactly the same words with the same English characters.
+
+
+
+11) In Android-Studio click to "open existing project" and after that choose the folder where you put your react-native project.
+
+
+
+12) At the bottom of the Android-Studio, you are going to see an error message and when you click that message on the right-hand side you are going to see a blue link which says "install missing sdk packages" click that blue link and install the missing packages as following the setup wizard.
+
+
+
+13) On the top bar of Android-Studio click on "Tools/Avd Manager" and then select the "create virtual device".
+
+
+
+14) Choose a device and on the next screen choose the "Nougat" system and install it. Then click to play button to start the Emulator.
+
+
+
+15) Got search bar of Windows and there type in "System Settings" and there click on 'View Advanced System Settings" and there click on the "Advanced" tab.
+
+
+
+16) On the Advanced tab click on to "Environment Variables", there click on "new". And in the opening window on the variable name write exactly "JAVA_HOME". If you have a variable name as "JAVA_HOME" you don't have to create a new one. And as variable value click on "browse directory". There "This PC/C Drive/program files/java/jdk-12(or above)" then click "Okay".
+
+
+
+17) On variable names there should be a variable called "PATH" go and click on "path" then choose "edit" and on the next window click on "new" and there write where you put your "sdk" folder while installing Android-Studio in our situation we are going to write "D:\sdk\platform-tools" then click on "OK" and close that window by clicking "OK"
+
+
+
+18) Then close your command prompt
+
+
+
+19) Open command prompt again as "Administrator"
+
+
+
+20) From command, prompt go to your project folder.
+
+
+
+21) In your project folder run "react-native run-android" and if this command doesn't start up your bundler then first run "react-native start".
+
+
+
+NOTES: If you have problems while starting your emulator then please share a screen-shot of the "error" and react, react-native, Android-Studio versions with us.
+

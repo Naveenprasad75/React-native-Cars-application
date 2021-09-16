@@ -1,0 +1,26 @@
+MAC IOS Emulator Setup Checklist
+1) Open App Store and install " XCODE". If you have "XCODE" then you have to update to the latest compatible version.
+
+
+
+2) Install "Homebrew" from "https://brew.sh/". Copy the installation command. Open your terminal and paste that exactly whole command and then hit "Enter".
+
+
+
+3) Install node js. On the terminal run "brew install node" and hit "Enter". You have to have at least node version "4.5". To confirm the installation of the node on terminal run "node --version"
+
+a
+
+4) Install "watchman". On the terminal run "brew install watchman".
+
+
+
+5) Install "react-native-cli". On terminal run "npm install -g react-native-cli"
+
+
+
+6) Create a react-native project. On terminal go to the folder where you want to put your project. And in that folder run "react-native init cars"
+
+
+
+7) To start your project in your project folder run "react-native run-ios"
